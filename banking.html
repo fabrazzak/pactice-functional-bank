@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functional Bank</title>
+
+    <!-- bootstrap link css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body class="">
+
+    <header class=" my-lg-5 my-3 container text-center">
+        <h1 >Let's get some <span class="text-primary fw-bold ">Mooooney!!!!</span></h1>
+    </header>
+    <main>
+
+        <!-- Deposite, widthdraw  and total balance section  -->
+
+        <section class=" container m-auto  my-lg-5">
+            <div class=" text-center text-light ">
+                <div class="row g-3  justify-content-center">
+                    <div class="col-lg-3 col-6  bg-info py-5  rounded  mx-lg-3 ">
+                        <h3>Deposite</h3>
+                        <h1>$<span id="deposite-total" class="fw-bold ">00</span></h1>
+                    </div>
+                    <div class="col-lg-3 col-6 bg-success py-5  rounded  mx-lg-3 ">
+                        <h3>Withdraw</h3>
+                        <h1>$<span id="withdraw-total" class="fw-bold ">00</span></h1>
+                    </div>
+                    <div class="col-lg-5 col-12  bg-primary   py-5  rounded mx-lg-3">
+                        <h3>Total Balance</h3>
+                        <h1>$<span id="balance-total" class="fw-bold ">00</span></h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Deposite and widthdraw section  -->
+
+        <section class="my-3">
+            <div class="container">
+                <div class="row  justify-content-center g-4 text-lg-start text-center">
+                    <div class="col-lg-6 col-6 bg-info p-lg-5 p-3 pt-5  rounded  me-lg-5">
+                        <h3 class="text-lg-start">Deposite</h3>
+                        <input id="deposite-input" type="text " placeholder="Deposite Amount" class="form-control ">
+                        <button id="deposite-button" class="btn btn-primary mt-4">Deposite Now</button>
+                    </div>
+                    <div class="col-lg-5 col-6  bg-info p-lg-5 p-3 pt-5 rounded ">
+                        <h3 class="text-lg-start">Withdraw</h3>
+                        <input id="withdraw-input" type="text " placeholder="Withdraw Amount" class="form-control">
+                        <button id="withdraw-button" class="btn btn-primary mt-4 ">Withdraw Now</button>
+                    </div>
+                </div>
+            </div>
+            <h3 class="text-center mt-5 fs-6"> <span>&copy;right </span> Full stack web developer Abdur Razzak</h3>
+        </section>
+    </main>
+    
+
+    <!-- bootstrap js link   -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="function.js"></script>
+</body>
+</html>
